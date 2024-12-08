@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" defer></script>
+</head>
+<body class="bg-gray-100 font-roboto">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Stock Simulator</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#" class="hover:underline">Dashboard</a></li>
+        <li><a href="#" class="hover:underline">Portfolio</a></li>
+        <li><a href="#" class="hover:underline">Market</a></li>
+        <li><a href="#" class="hover:underline">Profile</a></li>
+        <li><a href="index.html" class="hover:underline text-red-500">Log Out</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container mx-auto py-8">
+    <!-- Welcome Section -->
+    <div class="bg-white p-6 rounded-lg shadow-md mb-8 text-center">
+      <h2 class="text-2xl font-bold mb-2">Welcome, [User Name]</h2>
+      <p class="text-gray-600">Ready to dive into your virtual trading journey? Explore your portfolio, track market trends, and more.</p>
+    </div>
+
+    <!-- Summary Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+      <!-- Card 1 -->
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <h3 class="text-xl font-bold mb-2">Portfolio Value</h3>
+        <p class="text-2xl font-bold text-green-600">$12,345</p>
+        <p class="text-gray-600">Updated: Just now</p>
+      </div>
+      <!-- Card 2 -->
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <h3 class="text-xl font-bold mb-2">Today's Gains</h3>
+        <p class="text-2xl font-bold text-green-600">+ $500</p>
+        <p class="text-gray-600">(+4%)</p>
+      </div>
+      <!-- Card 3 -->
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <h3 class="text-xl font-bold mb-2">Top Performing Stock</h3>
+        <p class="text-2xl font-bold text-blue-600">AAPL</p>
+        <p class="text-gray-600">+ 5.2% Today</p>
+      </div>
+    </div>
+
+    <!-- Chart Section -->
+    <div class="bg-white p-6 rounded-lg shadow-md">
+      <h3 class="text-2xl font-bold mb-4">Portfolio Performance</h3>
+      <div class="h-64 bg-gray-200 rounded-lg flex items-center justify-center">
+        <!-- Placeholder for a Chart -->
+        <p class="text-gray-500">Chart will appear here.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white text-center p-4 mt-8">
+    <p>&copy; 2024 Stock Simulator. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
